@@ -1,0 +1,5 @@
+requests
+fastmcp
+uvicorn[standard]
+beautifulsoup4
+markdownify
