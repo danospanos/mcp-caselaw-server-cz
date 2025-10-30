@@ -104,7 +104,7 @@ Parameters:
 ### Implementation Location
 - File: `server.py`
 - Function: `search_ak_vrana(keywords: str) -> str`
-- Lines: 14-84
+- Decorated with `@mcp.tool()` for FastMCP registration
 
 ### Dependencies
 - requests - HTTP requests
