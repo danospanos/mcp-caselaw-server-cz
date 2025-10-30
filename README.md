@@ -34,6 +34,33 @@ docker run -p 8000:8000 judicature-mcp
 
 **Access:** http://localhost:8000
 
+## Usage Examples
+
+### Search for "odcizeni"
+The server provides a `search_ak_vrana` tool that can search for any keywords. For example, to search for "odcizeni":
+
+**Using an MCP client:**
+```json
+{
+  "tool": "search_ak_vrana",
+  "arguments": {
+    "keywords": "odcizeni"
+  }
+}
+```
+
+**Using the demo script:**
+```bash
+python demo_search.py
+```
+
+**Using the verification script:**
+```bash
+python verify_tools.py
+```
+
+For detailed instructions, see [SEARCH_GUIDE.md](SEARCH_GUIDE.md).
+
 ## Development
 
 **With auto-reload:**
